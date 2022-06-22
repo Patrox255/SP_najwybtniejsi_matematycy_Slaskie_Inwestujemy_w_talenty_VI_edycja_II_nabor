@@ -1,0 +1,37 @@
+@media screen and (max-width:1360px) {
+    .link
+    {
+        max-height: 600px;
+        max-width: 500px;
+    }
+    #links
+    {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+        width: 100%;
+        border-right: 0;
+    }
+    #left, #right
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 815px) {
+    .link
+    {
+        max-width: 200px;
+        max-height: 300px;
+    }
+    #links
+    {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+    }
+    #logo > h1 
+    {
+        font-size: 2em;
+    }
+    #logo > i
+    {
+        font-size: 3.5em;
+        margin-left: 0.25em;
+    }
+}
